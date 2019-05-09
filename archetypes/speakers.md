@@ -3,6 +3,7 @@ id: "{{ .TranslationBaseName | title }}"
 name: "{{ replace .TranslationBaseName "-" " " | title }}"
 company: XXX Corp
 featured: false
+hidden: false
 photo: /images/speakers/alexandre_delattre.jpg
 socials:
   - icon: twitter

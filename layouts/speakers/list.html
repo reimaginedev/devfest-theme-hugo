@@ -4,7 +4,7 @@
 
 <section>
 	<ul class="speakers shuffle">
-		{{ $speakers := where .Site.AllPages ".Section" "speakers" }}
+		{{ $speakers := where (where .Site.AllPages ".Section" "speakers") "Params.hidden" "==" nil }}
 		{{ range where $speakers ".Kind" "page" }}
 		<li>{{ partial "speaker.html" . }}</li>
 		{{ end }}
