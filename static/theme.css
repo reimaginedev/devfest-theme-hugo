@@ -1233,7 +1233,7 @@ form input {
   display: flex;
   align-items: center; }
   .page.speakers section.speaker .speaker-company img {
-    height: 4rem;
+    height: 2rem;
     margin-right: var(--space-4); }
 
 @media (max-width: var(--breakpoint-lg)) {
