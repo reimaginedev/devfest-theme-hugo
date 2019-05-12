@@ -48,7 +48,13 @@
 .tag-talk{
   background-color: var(--talk-bk);
   color:var(--talk-fg);
+
 }
+
+a.tag-talk, a.tag-talk:visited {
+  color:var(--talk-fg);
+}
+
 
 section .tags {
   padding: var(--space-1);

@@ -2,19 +2,19 @@
 <section class="talk">
 
 	<header class="tag-{{ anchorize (delimit .Params.tags "" ) }}">
-	<div class="tags">
+	<!-- <div class="tags">
 		{{ range .Params.tags }}
 		<span>{{ . }}</span>
 		{{ end }}
-	</div>
+	</div> -->
 
 	<h1 class="text">{{ .Title }}</h1>
 	<span class="language {{ anchorize .Params.language }}"></span>
 	</header>
 
 	<div class="info">
-		<div class="complexity">{{ .Params.complexity }}</div>
-		<div class="type type-{{ anchorize .Params.talkType }}">{{ .Params.talkType }}</div>
+		<!-- <div class="complexity">{{ .Params.complexity }}</div> -->
+		<!-- <div class="type type-{{ anchorize .Params.talkType }}">{{ .Params.talkType }}</div> -->
 
 		<div class="detail">
 			<div class="content">{{ .Content }}</div>

@@ -755,6 +755,9 @@ a.social {
   background-color: var(--talk-bk);
   color: var(--talk-fg); }
 
+a.tag-talk, a.tag-talk:visited {
+  color: var(--talk-fg); }
+
 section .tags {
   padding: var(--space-1);
   border-radius: var(--space-2);
@@ -1086,7 +1089,8 @@ form input {
   padding: var(--space-2) 0;
   border-top: thin solid var(--darken-1);
   border-bottom: thin solid var(--darken-1);
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
 
 .page.sessions .talk .content {
   margin: var(--space-4) 0;
