@@ -58,7 +58,8 @@
           display: inline-flex;
           padding: var(--space-2);
           border-radius: var(--space-1);
-
+          width: 100%;
+          
           .tags, .language {
             margin-right: 1ch;
           }

@@ -1218,7 +1218,8 @@ form input {
     border: thin solid var(--darken-1);
     display: inline-flex;
     padding: var(--space-2);
-    border-radius: var(--space-1); }
+    border-radius: var(--space-1);
+    width: 100%; }
     .page.speakers .hero .description .talks .talk .tags, .page.speakers .hero .description .talks .talk .language {
       margin-right: 1ch; }
     .page.speakers .hero .description .talks .talk .tags {
